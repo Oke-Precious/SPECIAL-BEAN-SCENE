@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 100px;
+    position: fixed;
+    color: white;
 }
 .navList{
     display: flex;
@@ -26,4 +28,7 @@
 .sec1{
     width: 100%;
     height: 100vh;
+    background-image:linear-gradient(90deg, #1e1e1e, #00000000), url(./media/coffee_image.png);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
