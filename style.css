@@ -12,7 +12,8 @@
     padding: 15px 80px;
     position: fixed;
     color: white;
-    background-color: rgba(15, 7, 7, 0.608);
+    background-color: rgb(15, 7, 7);
+    z-index: 100;
 }
 .navList{
     display: flex;
@@ -162,12 +163,24 @@
     color: #603809;
     text-align: center;
     line-height: 30px;
-    border: solid 1px #f8efe4;
+    border: solid 2px #f7e5ce;
+    position: relative;
+    height: 360px;
 }
 .coffeeContainer img{
     width: 300px;
     height: 200px;
 }
 .cofimgContent{
-    padding: 20px;
+    padding: 20px
+}
+.orderCofBtn{
+    position: absolute;
+    bottom: -40px;
+    left: 75px;
+}
+.orderCofBtn:hover{
+    background-color: #f9edde;
+    color: black;
+    border: #603809 solid 2px;
 }
