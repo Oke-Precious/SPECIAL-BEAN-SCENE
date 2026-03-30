@@ -50,7 +50,7 @@
 }
 .sec1{
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     background-image:linear-gradient(90deg, #1e1e1e, #00000000), url(./media/coffee_image.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -86,4 +86,9 @@
     color: black;
     font-weight: 600;
     margin: 20px 0;
+}
+.sec1border{
+    height: 2vh;
+    width: 100%;
+    background-image:linear-gradient(90deg, black, white);
 }
