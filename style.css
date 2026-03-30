@@ -27,6 +27,7 @@
     border: none;
     border-radius: 30px;
     border: none;
+    height: 40px;
 }
 .signIn{
     background-color: transparent;
@@ -78,7 +79,7 @@
     text-align: justify;
     width: 90%;
 }
-.coffeeDiv button{
+.orderBtn{
     padding: 10px 30px;
     border: none;
     border-radius: 30px;
@@ -86,9 +87,29 @@
     color: black;
     font-weight: 600;
     margin: 20px 0;
+    background-color: #f6c173;
+    height: 40px;
+}
+.orderBtn:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    
 }
 .sec1border{
     height: 2vh;
     width: 100%;
     background-image:linear-gradient(90deg, black, white);
+}
+.sec2{
+    padding: 80px;
+}
+.discoverCon{
+    display: flex;
+}
+.discover{
+    width: 60%;
+}
+.discover h1{
+    margin-bottom: 30px ;
 }
