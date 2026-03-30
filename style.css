@@ -149,4 +149,25 @@
 }
 .enjoyCoffee p{
     font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.orderCoffee{
+    display: flex;
+    gap: 20px;
+}
+.coffeeContainer{
+    display: block;
+    background-color: #FFF9F1;
+    color: #603809;
+    text-align: center;
+    line-height: 30px;
+    border: solid 1px #f8efe4;
+}
+.coffeeContainer img{
+    width: 300px;
+    height: 200px;
+}
+.cofimgContent{
+    padding: 20px;
 }
