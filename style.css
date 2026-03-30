@@ -156,6 +156,7 @@
 .orderCoffee{
     display: flex;
     gap: 20px;
+    margin-bottom: 100px;
 }
 .coffeeContainer{
     display: block;
@@ -186,5 +187,9 @@
 }
 .coffeeblast2{
     position: absolute;
-    right: 0;
+    left: 0;
+    top: -150px;
+}
+.whydifferent{
+    position: relative;
 }
