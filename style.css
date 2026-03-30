@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Playfair Display", serif;
-    outline:0.1px solid white;
+    /* outline:0.1px solid white; */
 }
 .navbar{
     width: 100%;
@@ -53,7 +53,7 @@
 .sec1{
     width: 100%;
     /* background-color: black; */
-    height: 99vh;
+    height: 100vh;
     background-image:linear-gradient(90deg, #1e1e1e, #00000000), url(./media/coffee_image.png);
     background-repeat: no-repeat;
     background-size:cover;
@@ -99,11 +99,7 @@
     color: white;
     
 }
-.sec1border{
-    height: 2vh;
-    width: 100%;
-    background-image:linear-gradient(90deg, black, white);
-}
+
 .sec2{
     padding: 80px;
     /* padding-bottom:none; */
@@ -114,7 +110,7 @@
     gap: 150px;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .discover{
     width: 65%;
@@ -146,4 +142,11 @@
 .coffeeblast{
     position: absolute;
     left: 0;
+    width: 380px;
+}
+.enjoyCoffee{
+    text-align: center;
+}
+.enjoyCoffee p{
+    font-size: 20px;
 }
