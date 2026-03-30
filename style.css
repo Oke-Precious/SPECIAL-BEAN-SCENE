@@ -32,8 +32,17 @@
     background-color: transparent;
     color: white;
 }
+.signIn:hover{
+    background-color:#f6c173;
+    color: black;
+}
 .signUp{
     background-color:#f6c173;
+}
+.signUp:hover{
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
 }
 .logo p{
     font-family: "Clicker Script", cursive;
@@ -62,5 +71,19 @@
     font-weight: 400;
 }
 .coffeeDiv h5{
-    font-size: 25px;
+    font-size: 22px;
+}
+.coffeeDiv p{
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+}
+.coffeeDiv button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin: 20px 0;
 }
