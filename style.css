@@ -187,12 +187,45 @@
     color: black;
     border: #603809 solid 2px;
 }
+.whydifferent{
+    position: relative;
+    text-align: center;
+}
 .coffeeblast2{
     position: absolute;
     right: 0;
     top: -150px;
     width: 450px;    
 }
-.whydifferent{
-    position: relative;
+.diffParagraph {
+    margin-top:30px ;
+}
+.pinkBoxCon{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.pinkBox{
+    background-color: #FFF9F1;
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #FFEED8;
+    color: #603809;
+}
+.pinkBox img{
+    width: 80px;  
+    margin-bottom: 20px; 
+}
+.pinkBox:hover{
+    background-color:#FFEED8
+}
+.pinkBox p{
+    margin-top: 20px;
+    font-size: 20px;
 }
