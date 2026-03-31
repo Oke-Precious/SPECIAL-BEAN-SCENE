@@ -199,6 +199,7 @@
 }
 .diffParagraph {
     margin-top:30px ;
+    font-size: 20px;
 }
 .pinkBoxCon{
     margin-top: 40px;
@@ -228,4 +229,24 @@
 .pinkBox p{
     margin-top: 20px;
     font-size: 20px;
+}
+.getStarted{
+    margin: 20px 0;
+    color: #603809;
+}
+.joinUsBtn{
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    margin: 20px 0;
+    background-color: #f6c173;
+    height: 40px;
+    width: 150px;
+}
+.joinUsBtn:hover{
+    background-color:transparent;
+    border: #603809 solid 2px;
+    color: #603809;
 }
