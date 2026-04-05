@@ -9,7 +9,9 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 15px 80px;
+    padding:0 80px;
+    align-items: center;
+    height: 65px;
     position: fixed;
     color: white;
     background-color: rgb(15, 7, 7);

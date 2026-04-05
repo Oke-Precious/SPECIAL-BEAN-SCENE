@@ -1,0 +1,8 @@
+@media (max-width:768px) {
+    .navbar{
+        padding: 15px;
+    }
+    .navList{
+        display: none;
+    }
+}
