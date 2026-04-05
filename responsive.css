@@ -1,8 +1,20 @@
 @media (max-width:768px) {
     .navbar{
-        padding: 15px;
+        padding: 15px 20px;
     }
     .navList{
         display: none;
     }
+    .sec1{
+        flex-direction: column;
+        align-items: start;
+        padding:100px 20px;
+    }
+    .coffeeDiv{
+        width: 100%;
+    }
+    .coffeeDiv h1{
+        font-size: 40vw;
+    }
+    
 }

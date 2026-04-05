@@ -13,6 +13,7 @@
     align-items: center;
     height: 65px;
     position: fixed;
+    top: 0;
     color: white;
     background-color: rgb(15, 7, 7);
     z-index: 100;
