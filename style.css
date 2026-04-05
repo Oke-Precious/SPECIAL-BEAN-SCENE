@@ -119,6 +119,7 @@
 }
 .discover{
     width: 65%;
+    position: relative;
 }
 .discover h1{
     margin-bottom: 30px ;
@@ -127,6 +128,7 @@
     background-image: url(./media/coffeegrouped\ cup.png);
     width: 60%;
     height: 450px;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .brownh1{
@@ -146,8 +148,9 @@
 }
 .coffeeblast{
     position: absolute;
-    left: 0;
-    width: 380px;
+    bottom: -30%;
+    left: -14%;
+    width: 50%;
 }
 .enjoyCoffee{
     text-align: center;
@@ -183,7 +186,7 @@
 .orderCofBtn{
     position: absolute;
     bottom: -40px;
-    left: 75px;
+    left: 25%;
 }
 .orderCofBtn:hover{
     background-color: #f9edde;

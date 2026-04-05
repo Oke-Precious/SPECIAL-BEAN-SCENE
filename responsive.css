@@ -16,5 +16,31 @@
     .coffeeDiv h1{
         font-size: 40vw;
     }
-    
+    .discoverCon{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .discover{
+        width: 100%;
+    }
+    .coffeeCup{
+        width: 100%;
+        background-size: cover;
+    }
+    .orderCoffee{
+        flex-direction: column;
+        padding: 20px;
+        gap: 60px;
+    }
+    .coffeeContainer{
+        width: 70%;
+        margin: auto;
+    }
+    .coffeeContainer img{
+        width: 100%;
+    }
+    .orderCofBtn{
+        left: 32%;
+    }
+
 }
