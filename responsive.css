@@ -42,5 +42,15 @@
     .orderCofBtn{
         left: 32%;
     }
+    .pinkBoxCon{
+        flex-direction: column;
+    }
+    .pinkBox{
+        width: 70%;
+        margin: auto;
+    }
+    .coffeeblast2{
+        top: -10%;
+    }
 
 }

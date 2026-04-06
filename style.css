@@ -6,7 +6,9 @@
     /* outline:0.1px solid white; */
 }
 .navbar{
-    width: 100%;
+    /* width: 100%; */
+    right: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     padding:0 80px;
@@ -15,7 +17,7 @@
     position: fixed;
     top: 0;
     color: white;
-    background-color: rgb(15, 7, 7);
+    background-color: rgba(15, 7, 7, 0.849);
     z-index: 100;
 }
 .navList{
@@ -200,8 +202,8 @@
 .coffeeblast2{
     position: absolute;
     right: 0;
-    top: -150px;
-    width: 450px;    
+    top: -30%;
+    width: 30%;    
 }
 .diffParagraph {
     margin-top:30px ;
