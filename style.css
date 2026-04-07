@@ -280,8 +280,17 @@
     max-width: 400px;
 }
 .sec3 p{
-    margin-top: 20px;
+    margin: 30px 0;
     font-size: 20px;
     width: 60%;
+    line-height: 30px;
+}
+.sec4{
+    padding: 100px;
+    text-align: center;
+}
+.sec4 p{
+    font-size: 20px;
+    margin: 30px;
     line-height: 30px;
 }
