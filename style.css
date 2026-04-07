@@ -288,9 +288,35 @@
 .sec4{
     padding: 100px;
     text-align: center;
+    position: relative;
 }
 .sec4 p{
     font-size: 20px;
-    margin: 30px;
+    margin: 20px;
     line-height: 30px;
+    color: #603809;
+}
+.blast-coffee{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    max-width: 500px;
+    z-index: 5;
+}
+.reviewCon{
+    width: 65%;
+    margin: auto;
+    position: relative;
+
+    background-color: #FEF8F0;
+    border: solid 2px #FFEED8;
+    
+}
+.reviewCon div{color: #603809;
+    padding: 70px;
+}
+.reviewCon h1{
+    font-size: 16pc;
+    position: absolute;
+    color: #603809;
 }

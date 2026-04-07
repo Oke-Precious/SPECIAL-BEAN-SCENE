@@ -63,5 +63,14 @@
     .sec3 p{
         width: 100%;
     }
+    .sec4{
+        padding: 50px    20px;
+    }
+    .reviewCon{
+        width: 100%;
+    }
+    .reviewCon div{
+        padding: 20px;
+    }
 
 }
