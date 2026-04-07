@@ -53,5 +53,12 @@
     .coffeeblast2{
         top: -10%;
     }
+    .sec3{
+        flex-direction: column;
+        padding:50px 20px;
+    }
+    .getChance{
+        width: 100%;
+    }
 
 }
