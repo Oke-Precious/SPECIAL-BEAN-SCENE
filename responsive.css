@@ -88,6 +88,7 @@
     }
     .project-profile{
         left: 32vw;
+        bottom: -7vh;
     }
     footer li{
         margin: 20px 0;
