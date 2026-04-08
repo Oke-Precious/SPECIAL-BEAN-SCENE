@@ -289,10 +289,11 @@
     padding: 100px;
     text-align: center;
     position: relative;
+    margin: 20px 0;
 }
 .sec4 p{
     font-size: 20px;
-    margin: 15px;
+    margin: 15px 0;
     line-height: 30px;
     color: #603809;
 }
@@ -338,6 +339,40 @@
     background-image: url(./media/mypic.png);
     background-position: center;
     background-size: cover;
-    background-color: #FEF8F0;
-    border: solid 2px #FFEED8;
+    background-color: #414141;
+    box-shadow: 0 5px 10px #f8e4ca ;
+}
+.subscribeCon{
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background-image: url(./media/coffebg.png);
+}
+.subscribeCon h1{
+    color: white;
+}
+.subscribeCon p{
+    font-size: 20px;
+    margin: 30px 0;
+    line-height: 30px;
+}
+.inputCon{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: #F9C06A solid 2px;
+}
+.inputCon input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+}
+.inputCon input:focus{
+    
 }
