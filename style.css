@@ -292,31 +292,38 @@
 }
 .sec4 p{
     font-size: 20px;
-    margin: 20px;
+    margin: 15px;
     line-height: 30px;
     color: #603809;
 }
 .blast-coffee{
     position: absolute;
     right: 0;
-    width: 40%;
+    width: 30%;
     max-width: 500px;
     z-index: 5;
 }
 .reviewCon{
     width: 65%;
     margin: auto;
+    padding:120px 100px;
     position: relative;
-
     background-color: #FEF8F0;
     border: solid 2px #FFEED8;
     
 }
-.reviewCon div{color: #603809;
-    padding: 70px;
+.reviewCon div{
+    color: #603809;
 }
 .reviewCon h1{
     font-size: 16pc;
     position: absolute;
+    top: -11%;
+    left: 2%;
+    /* bottom: 0; */
     color: #603809;
+}
+.reviewCon h2{
+    margin-top: 50px;
+    font-size: 30px;
 }
