@@ -327,3 +327,17 @@
     margin-top: 50px;
     font-size: 30px;
 }
+.project-profile{
+    height: 130px;
+    width: 100%;
+    bottom: -10%;
+    left: 40%;
+    border-radius: 10px;
+    position: absolute;
+    max-width: 130px;
+    background-image: url(./media/mypic.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #FEF8F0;
+    border: solid 2px #FFEED8;
+}
