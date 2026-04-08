@@ -69,5 +69,14 @@
     .reviewCon{
         width: 100%;
     }
-  
+    .subscribeCon{
+        padding: 20px;
+    }
+    .inputCon input{
+        padding: 10px 15px;
+    }
+    .inputCon{
+        margin-bottom: 20px;
+    }
+
 }
